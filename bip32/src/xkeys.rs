@@ -65,7 +65,7 @@ pub trait Parent: Sized + Clone {
 
 /// A BIP32 eXtended Privkey
 pub struct XPriv {
-    pub(crate) key: ecdsa::SigningKey,
+    pub key: ecdsa::SigningKey,
     pub(crate) xkey_info: XKeyInfo,
 }
 
