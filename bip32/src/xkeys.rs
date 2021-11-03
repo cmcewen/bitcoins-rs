@@ -254,7 +254,7 @@ impl Parent for XPriv {
 
 /// A BIP32 eXtended Public key
 pub struct XPub {
-    pub(crate) key: ecdsa::VerifyingKey,
+    pub key: ecdsa::VerifyingKey,
     pub(crate) xkey_info: XKeyInfo,
 }
 
